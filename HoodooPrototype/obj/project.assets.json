@@ -661,11 +661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\HoodooPrototype\\HoodooPrototype.csproj",
+      "projectUniqueName": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
       "projectName": "HoodooPrototype",
-      "projectPath": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\HoodooPrototype\\HoodooPrototype.csproj",
+      "projectPath": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
       "packagesPath": "C:\\Users\\Joseph\\.nuget\\packages\\",
-      "outputPath": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\HoodooPrototype\\obj\\",
+      "outputPath": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\hoodoo\\HoodooPrototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Joseph\\AppData\\Roaming\\NuGet\\NuGet.Config",

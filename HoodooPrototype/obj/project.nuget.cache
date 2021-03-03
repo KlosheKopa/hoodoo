@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mYVBGyyRXK95Hk+hkXWqnDbKYnBCAiSP4Jd6Doo3PD/B7ZY1s/ZHz/GWkym+/djSB+qZn2ZevhFhU9LGcTfEFA==",
+  "dgSpecHash": "jHrYJjLTYvNuBGgUuUfCVL84c02K2r3jj0RPRp4iPsj7FkWda0wXSic2rR7NI1IPNmYayXWAg3ytObc3OvJoaw==",
   "success": true,
-  "projectFilePath": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\HoodooPrototype\\HoodooPrototype.csproj",
+  "projectFilePath": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joseph\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.8\\microsoft.aspnetcore.mvc.razor.extensions.3.1.8.nupkg.sha512",
     "C:\\Users\\Joseph\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.8\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.8.nupkg.sha512",
