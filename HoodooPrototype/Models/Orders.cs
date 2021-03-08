@@ -20,6 +20,6 @@ namespace HoodooPrototype.Models
         public string OrderStatus { get; set; }
         public DateTime DateRecieved { get; set; }
         public bool IsViewed { get; set; }
-        public IList<string> FulfilledBy { get; set; }
+        public AppUser FulfilledBy { get; set; }
     }
 }
