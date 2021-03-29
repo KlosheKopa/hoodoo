@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HoodooShop.csproj",
-      "projectName": "HoodooShop",
-      "projectPath": "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HoodooShop.csproj",
+      "projectUniqueName": "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
+      "projectName": "HillsideShop",
+      "projectPath": "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
       "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
       "outputPath": "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\obj\\",
       "projectStyle": "PackageReference",
