@@ -8886,19 +8886,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joseph\\.nuget\\packages\\": {}
+    "C:\\Users\\aaron\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
+      "projectUniqueName": "E:\\Capstone\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
       "projectName": "HoodooPrototype",
-      "projectPath": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
-      "packagesPath": "C:\\Users\\Joseph\\.nuget\\packages\\",
-      "outputPath": "Y:\\Documents\\College\\Winter 2021\\CS 246 System Design\\Lab\\hoodoo\\HoodooPrototype\\obj\\",
+      "projectPath": "E:\\Capstone\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
+      "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
+      "outputPath": "E:\\Capstone\\hoodoo\\HoodooPrototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Joseph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8910,6 +8910,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -8921,6 +8922,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
@@ -8963,7 +8965,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
