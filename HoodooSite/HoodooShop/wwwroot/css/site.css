@@ -80,17 +80,3 @@ body {
     width: 700px;
     height: 550px;
 }
-
-.featuredNavigation {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.featNavItem {
-    float: left;
-    width: 25%;
-    height: 25%;
-    padding: 30px;
-    margin-bottom: 50px;
-}
