@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Capstone\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj": {}
+    "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj": {}
   },
   "projects": {
-    "E:\\Capstone\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj": {
+    "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Capstone\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
+        "projectUniqueName": "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
         "projectName": "HoodooPrototype",
-        "projectPath": "E:\\Capstone\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
-        "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-        "outputPath": "E:\\Capstone\\hoodoo\\HoodooPrototype\\obj\\",
+        "projectPath": "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooPrototype\\HoodooPrototype.csproj",
+        "packagesPath": "C:\\Users\\olivi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooPrototype\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\olivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,12 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -81,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

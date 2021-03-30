@@ -25,6 +25,7 @@
       "HoodooPrototype/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.8",
+          "Microsoft.CodeAnalysis.Analyzers": "2.9.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.12",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.12",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.12",
@@ -385,10 +386,10 @@
           "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
         }
       },
-      "Microsoft.CodeAnalysis.Analyzers/2.9.4": {},
+      "Microsoft.CodeAnalysis.Analyzers/2.9.8": {},
       "Microsoft.CodeAnalysis.Common/3.3.1": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Analyzers": "2.9.4",
+          "Microsoft.CodeAnalysis.Analyzers": "2.9.8",
           "System.Collections.Immutable": "1.7.1",
           "System.Memory": "4.5.3",
           "System.Reflection.Metadata": "1.6.0",
@@ -4088,12 +4089,12 @@
       "path": "microsoft.bcl.hashcode/1.1.1",
       "hashPath": "microsoft.bcl.hashcode.1.1.1.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Analyzers/2.9.4": {
+    "Microsoft.CodeAnalysis.Analyzers/2.9.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-alIJhS0VUg/7x5AsHEoovh/wRZ0RfCSS7k5pDSqpRLTyuMTtRgj6OJJPRApRhJHOGYYsLakf1hKeXFoDwKwNkg==",
-      "path": "microsoft.codeanalysis.analyzers/2.9.4",
-      "hashPath": "microsoft.codeanalysis.analyzers.2.9.4.nupkg.sha512"
+      "sha512": "sha512-7ZFIPFQRcL9VEkhm2v7bsIV5Klz/NwvLzhzB/1bEXjvsuTiQA3I9vSS9DOQOMt+iGhT6jxa+djBc6PmSXgIvNw==",
+      "path": "microsoft.codeanalysis.analyzers/2.9.8",
+      "hashPath": "microsoft.codeanalysis.analyzers.2.9.8.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Common/3.3.1": {
       "type": "package",

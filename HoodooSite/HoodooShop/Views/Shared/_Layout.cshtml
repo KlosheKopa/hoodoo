@@ -3,29 +3,77 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - HoodooShop</title>
+    <title>@ViewData["Title"] - HillsideShop</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha-long-hash_code" crossorigin="anonymous" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        @using Microsoft.AspNetCore.Identity
+        @* @inject SignInManager<AppUser> signInManager *@
+        <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-inverse">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HoodooShop</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="navbar-brand">
+                    <img src="~/Photos/hillsideLogo.jpg" alt="Hillside Logo" class="logo">
+                </div>
+                <div class="flex-sm-row-reverse">
+                    <ul class="nav navbar">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Rental" asp-action="Index">Rentals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="Index">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">Contact Us</a>
+                        </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Admin Portal</a>
+                            </li>
+                        }
+                        @*
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                            <!--need to add views-->
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="AppUser" asp-action="Account">Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="AppUser" asp-action="Logout">Log Out</a>
+                            </li>
+                            <li class="nav-item">
+                                @User.Identity.Name
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="AppUser" asp-action="Register">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="AppUser" asp-action="Login">Log In</a>
+                            </li>
+                        }
+                        *@
+                        <li class="nav-item">
+                            <a class="fas fa-shopping-cart h3" asp-area="" asp-controller="Orders" as-action="Index"></a>
+                            <span class="badge badge-warning" id="lblCartCount">0</span>
+
+                            <!--adjust so cart count will change with total items in cart-->
+
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div>
+
             </div>
         </nav>
     </header>
@@ -37,7 +85,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - HoodooShop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Hillside Ski and Sport - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
