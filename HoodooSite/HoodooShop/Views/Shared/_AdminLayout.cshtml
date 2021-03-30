@@ -39,10 +39,10 @@
                             </li>
                         }
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="AppUser" asp-action="Account">Account</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AppUser" asp-action="Account">Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="AppUser" asp-action="Logout">Log Out</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AppUser" asp-action="Logout">Log Out</a>
                         </li>
                         <li class="nav-item">
                             @User.Identity.Name
@@ -58,15 +58,39 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <div class="nav navbar">
-                <ul class="navbar">
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="Index">Admin Home</a>
-                    </li>
-                </ul>
+        <!--create views -->
+        <nav class="navbar navbar-expand-sm navbar-fixed-top">
+            <div class="container">
+                <div class="nav navbar">
+                    <ul class="navbar">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Admin Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Rental Forms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Users</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Modify</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="Index">Homepage</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="Index">Featured Products</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="Index">Store Information</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="Index">Rental Page</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
