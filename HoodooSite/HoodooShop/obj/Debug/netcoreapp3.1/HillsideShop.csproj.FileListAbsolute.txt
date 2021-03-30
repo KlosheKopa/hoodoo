@@ -40,3 +40,4 @@ C:\Users\olivi\Desktop\Hoodoo\hoodoo\HoodooSite\HoodooShop\obj\Debug\netcoreapp3
 C:\Users\olivi\Desktop\Hoodoo\hoodoo\HoodooSite\HoodooShop\obj\Debug\netcoreapp3.1\HillsideShop.pdb
 C:\Users\olivi\Desktop\Hoodoo\hoodoo\HoodooSite\HoodooShop\obj\Debug\netcoreapp3.1\HillsideShop.genruntimeconfig.cache
 C:\Users\olivi\Desktop\Hoodoo\hoodoo\HoodooSite\HoodooShop\obj\Debug\netcoreapp3.1\HillsideShop.csproj.CopyComplete
+C:\Users\olivi\Desktop\Hoodoo\hoodoo\HoodooSite\HoodooShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs

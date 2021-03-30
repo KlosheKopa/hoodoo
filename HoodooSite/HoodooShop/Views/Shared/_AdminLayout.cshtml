@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HillsideShop</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha-long-hash_code" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        @using Microsoft.AspNetCore.Identity
+        @* @inject SignInManager<AppUser> signInManager *@
+        <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img src="~/Photos/hillsideLogo.jpg" alt="Hillside Logo" class="logo">
+                </div>
+                <div class="flex-sm-row-reverse">
+                    <ul class="nav navbar">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Rental" asp-action="Index">Rentals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="Index">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">Contact Us</a>
+                        </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Admin Portal</a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="AppUser" asp-action="Account">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="AppUser" asp-action="Logout">Log Out</a>
+                        </li>
+                        <li class="nav-item">
+                            @User.Identity.Name
+                        </li>
+                        <li class="nav-item">
+                            <a class="fas fa-shopping-cart h3" asp-area="" asp-controller="Orders" as-action="Index"></a>
+                            <span class="badge badge-warning" id="lblCartCount">0</span>
+
+                            <!--adjust so cart count will change with total items in cart-->
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="nav navbar">
+                <ul class="navbar">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="Index">Admin Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - Hillside Ski and Sport - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
