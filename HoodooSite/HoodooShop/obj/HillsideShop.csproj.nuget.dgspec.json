@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj": {}
+    "C:\\Users\\olivi\\Desktop\\HillsideSki\\HoodooWebApp\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj": {
+    "C:\\Users\\olivi\\Desktop\\HillsideSki\\HoodooWebApp\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
+        "projectUniqueName": "C:\\Users\\olivi\\Desktop\\HillsideSki\\HoodooWebApp\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
         "projectName": "HillsideShop",
-        "projectPath": "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
+        "projectPath": "C:\\Users\\olivi\\Desktop\\HillsideSki\\HoodooWebApp\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
         "packagesPath": "C:\\Users\\olivi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olivi\\Desktop\\Hoodoo\\hoodoo\\HoodooSite\\HoodooShop\\obj\\",
+        "outputPath": "C:\\Users\\olivi\\Desktop\\HillsideSki\\HoodooWebApp\\hoodoo\\HoodooSite\\HoodooShop\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\olivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -26,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -57,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
