@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HillsideShop.Controllers
 {
-    public class OrdersController : Controller
+    public class CartController : Controller
     {
         public IActionResult Index()
         {
