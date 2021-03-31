@@ -70,7 +70,7 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-/*more css design for logo, carousel, and navigation images*/
+/*more css design for home: logo, carousel, featured navigation, hours*/
 .resizeLogo {
     width: 200px;
     height: auto;
@@ -79,4 +79,9 @@ body {
 .resizeCarousel {
     width: 700px;
     height: 550px;
+}
+
+.storeHours {
+    height: 180px;
+    width: 250px;
 }
