@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gucker\\Desktop\\LCC Homework & Files\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj": {}
+    "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gucker\\Desktop\\LCC Homework & Files\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj": {
+    "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gucker\\Desktop\\LCC Homework & Files\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
+        "projectUniqueName": "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
         "projectName": "HillsideShop",
-        "projectPath": "C:\\Users\\Gucker\\Desktop\\LCC Homework & Files\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
-        "packagesPath": "C:\\Users\\Gucker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gucker\\Desktop\\LCC Homework & Files\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\obj\\",
+        "projectPath": "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\HillsideShop.csproj",
+        "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
+        "outputPath": "E:\\Capstone\\hoodoo\\HoodooSite\\HoodooShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gucker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -55,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

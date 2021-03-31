@@ -23,27 +23,7 @@ namespace HoodooShop.Controllers
             return View();
         }
 
-        public IActionResult Rental()
-        {
-            return View();
-        }
-
-        public IActionResult Store()
-        {
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            return View();
-        }
-
-        public IActionResult LogIn()
-        {
-            return View();
-        }
-
-        public IActionResult Checkout()
+        public IActionResult Privacy()
         {
             return View();
         }
