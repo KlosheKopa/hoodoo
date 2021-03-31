@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HillsideShop.Controllers
 {
-    public class AppUserController : Controller
+    public class UserController : Controller
     {
         public IActionResult Index()
         {
